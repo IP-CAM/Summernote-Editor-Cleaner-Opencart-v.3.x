@@ -1,8 +1,8 @@
 # Opencart 3 Summernote Cleaner
 
-Opencart 3 Module for the [Summernote](https://github.com/summernote/summernote/) WYSIWYG editor.
+Opencart 3 Module (OCMOD) for the [Summernote](https://github.com/summernote/summernote/) WYSIWYG editor.
 
-Completely based on [summernote-cleaner](https://github.com/DiemenDesign/summernote-cleaner/) plugin
+Completely based on the [summernote-cleaner](https://github.com/DiemenDesign/summernote-cleaner/) plugin
 
 #### 1. Summernote options
 
