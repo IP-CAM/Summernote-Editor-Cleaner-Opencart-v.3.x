@@ -1,0 +1,45 @@
+﻿<modification>
+    <name>Summernote Cleaner</name>
+    <code>SummernoteCleaner</code>
+    <version>1.0</version>
+    <author>Andrii Burkatskyi aka underr</author>
+    <link>https://github.com/underr-ua/summernote-cleaner</link>
+
+    <file path="admin/view/template/extension/module/html.twig" error="skip">
+        <operation error="skip">
+            <search><![CDATA[<script type="text/javascript" src="view/javascript/summernote/summernote-image-attributes.js"></script>]]></search>
+            <add position="after"><![CDATA[<script src="view/javascript/summernote-cleaner.js" type="text/javascript"></script>]]></add>
+        </operation>
+    </file>
+    <file path="admin/view/template/extension/openbay/ebay_new.twig" error="skip">
+        <operation error="skip">
+            <search><![CDATA[<script type="text/javascript" src="view/javascript/summernote/summernote-image-attributes.js"></script>]]></search>
+            <add position="after"><![CDATA[<script src="view/javascript/summernote-cleaner.js" type="text/javascript"></script>]]></add>
+        </operation>
+    </file>
+    <file path="admin/view/template/marketing/contact.twig" error="skip">
+        <operation error="skip">
+            <search><![CDATA[<script type="text/javascript" src="view/javascript/summernote/summernote-image-attributes.js"></script>]]></search>
+            <add position="after"><![CDATA[<script src="view/javascript/summernote-cleaner.js" type="text/javascript"></script>]]></add>
+        </operation>
+    </file>
+    <file path="admin/view/template/catalog/information_form.twig" error="skip">
+        <operation error="skip">
+            <search><![CDATA[<script type="text/javascript" src="view/javascript/summernote/summernote-image-attributes.js"></script>]]></search>
+            <add position="after"><![CDATA[<script src="view/javascript/summernote-cleaner.js" type="text/javascript"></script>]]></add>
+        </operation>
+    </file>
+    <file path="admin/view/template/catalog/product_form.twig" error="skip">
+        <operation error="skip">
+            <search><![CDATA[<script type="text/javascript" src="view/javascript/summernote/summernote-image-attributes.js"></script>]]></search>
+            <add position="after"><![CDATA[<script src="view/javascript/summernote-cleaner.js" type="text/javascript"></script>]]></add>
+        </operation>
+    </file>
+    <file path="admin/view/template/catalog/category_form.twig" error="skip">
+        <operation error="skip">
+            <search><![CDATA[<script type="text/javascript" src="view/javascript/summernote/summernote-image-attributes.js"></script>]]></search>
+            <add position="after"><![CDATA[<script src="view/javascript/summernote-cleaner.js" type="text/javascript"></script>]]></add>
+        </operation>
+    </file>
+</modification>
+
