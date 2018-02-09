@@ -40,10 +40,10 @@ $('.summernote').summernote({
     }
 });
 ```
-#### 2. Install 
+#### 2. Install
 
 - To begin, make backup, really!
-- Download bin/summernote-claner.zip
+- Download bin/summernote-cleaner.zip
 - Unpack it
 - Go to your OpenCart Admin Panel and open Extensions menu
 - Open Installer
