@@ -40,14 +40,16 @@ $('.summernote').summernote({
     }
 });
 ```
-#### 2. Install
+#### 2. Install 
 
 - To begin, make backup, really!
-- Go to your OpenCart Admin and open Extensions menu
+- Download bin/summernote-claner.zip
+- Unpack it
+- Go to your OpenCart Admin Panel and open Extensions menu
 - Open Installer
 - Click the Upload button
 - Find, select and upload the summernote-cleaner.ocmod.zip file
-- See the "Success: You have modified extension!" message
+- See the "Success: You have modified extensions!" message
 - Go to Extensions > Modifications > [Refresh] button
 - Go to Dashboard > [ Developer Settings] button -> [Refresh] button
 - Check
